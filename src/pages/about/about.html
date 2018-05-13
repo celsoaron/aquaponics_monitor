@@ -14,7 +14,7 @@
 
 
 <ion-content padding>
-  <form [formGroup]="formGroup" (ngSubmit)="sendData(formGroup.value)">
+  <!-- <form [formGroup]="formGroup" (ngSubmit)="sendData(formGroup.value)">
       <ion-item>
           <ion-label color="primary" floating>Temperature</ion-label>
           <ion-input type="number" name="temperature" formControlName="temperature" ngModel></ion-input>
@@ -28,13 +28,13 @@
           <ion-input type="number" name="ph" formControlName="ph" ngModel></ion-input>
       </ion-item>
       <button ion-button type="submit" block>Send Data</button>
-  </form>
+  </form> -->
 
   <ion-card>
     <ion-card-header>
     </ion-card-header>
     <ion-card-content>
-      <canvas #temperature>HELLOOOO</canvas>
+      <canvas #temperature></canvas>
     </ion-card-content>
   </ion-card>
 
